@@ -1,0 +1,36 @@
+# Model weights
+*.pth
+*.onnx
+*.engine
+*.whl
+
+# Large data
+training_data/raw_frames/
+training_data/depth_maps/
+training_data/metric_labels/
+training_data/dataset/
+test_media/
+*.npy
+*.mp4
+*.MP4
+
+# Environments
+depth_anything_env/
+marigold_env/
+unidepth_env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.eggs/
+*.egg-info/
+
+# Cloned repos
+Depth-Anything-V2/
+UniDepth/
+Marigold/
+
+# Misc
+.DS_Store
+*.log
